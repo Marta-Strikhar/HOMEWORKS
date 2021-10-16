@@ -1,0 +1,39 @@
+.main {
+    position: relative;
+    max-width: 1000px;
+}
+
+.text {
+    font-size: 150px;
+    color: aliceblue;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.place {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.box {
+    width: 1600px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box1 {
+    margin-left: -20px;
+}
+
+.block {
+    color: #0f4141;
+    text-align: center;
+}
+
+h3:hover {
+    color: #61b4b6;
+}
