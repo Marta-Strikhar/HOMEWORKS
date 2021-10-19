@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background-color: azure;
+    border: 2px solid;
+    margin: 0 auto;
+}
+
+#header {
+    display: flex;
+    box-sizing: border-box;
+    width: 500px;
+    height: 100px;
+    background-color: chartreuse;
+    margin: 5px auto;
+}
+
+.center {
+    display: flex;
+
+}
+
+.footer {
+    display: flex;
+
+}
+
+#menu {
+    display: flex;
+    height: 200px;
+    width: 100px;
+    background-color: lightpink;
+
+}
