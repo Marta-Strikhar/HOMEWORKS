@@ -5,35 +5,59 @@
 .info {
     display: flex;
     width: 600px;
-    height: 500px;
-    background-color: azure;
-    border: 2px solid;
+    height: 600px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 #header {
     display: flex;
-    box-sizing: border-box;
     width: 500px;
     height: 100px;
     background-color: chartreuse;
     margin: 5px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .center {
     display: flex;
-
+    column-gap: 5px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
 }
 
-.footer {
+#footer {
     display: flex;
-
+    width: 500px;
+    height: 100px;
+    background-color: chartreuse;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu {
     display: flex;
-    height: 200px;
-    width: 100px;
-    background-color: lightpink;
+    background-color: mediumslateblue;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
 
+.posts {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.post {
+    display: flex;
+    background-color: yellow;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
