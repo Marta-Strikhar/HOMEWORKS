@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.menu__header {
+    height: 200px;
+    background-color: #61b4b6;
+    flex-grow: 1;
+}
+
+.menu__footer {
+    height: 300px;
+    column-gap: 5px;
+}
+
+.menu__footer__b {
+    background-color: darkorchid;
+    flex-grow: 2;
+}
+
+.menu__footer__c {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.menu {
+    padding: 5px;
+    border: 2px solid #022038;
+    border-radius: 6px;
+}
+
+.text {justify-content: center;
+align-items: center;
+}

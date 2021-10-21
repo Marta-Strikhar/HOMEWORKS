@@ -1,0 +1,40 @@
+
+.main {
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main__widgets {
+    background-color: cornflowerblue;
+    height: 25%;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.main__boxes {
+    width: 90%;
+    height: 25%;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+.main__box {
+    background-color: darkblue;
+    flex-grow: 1;
+    width: 33%;
+}
+
+.main__contact {
+    background-color: darkblue;
+    width: 90%;
+    margin: 10px auto;
+    height: 40%;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+.header__nav {
+    width: 700px;
+    height: 800px;
+}
+
+.menu {
+    width: 90%;
+    height: 25%;
+    flex-direction: column;
+}
+
+.header {
+    background-color: deepskyblue;
+    flex-grow: 2.5;
+}
+
+.nav {
+    background-color: mediumslateblue;
+    flex-grow: 1.5;
+}
+
+.center {
+    width: 90%;
+    height: 55%;
+}
+
+.main {
+    background-color: deepskyblue;
+    flex-grow: 2;
+}
+
+.aside {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: cadetblue;
+    width: 90%;
+    margin: 0 auto;
+    height: 10%;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+}
