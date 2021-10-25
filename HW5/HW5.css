@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.all {
+    display: block;
+}
+
 .header {
     display: flex;
     background-color: #f1c5b3;
@@ -77,10 +81,11 @@ button {
 
 .description__content {
     display: flex;
-    width: 32%;
+    max-width: 32%;
     height: 350px;
     justify-content: space-evenly;
     margin-top: 70px;
+    flex-wrap: wrap;
 }
 
 .description__content__box {
@@ -95,9 +100,10 @@ button {
     display: flex;
     background-color: #f1c5b3;
     width: 100%;
-    height: 3000px;
+    height: 2000px;
     flex-direction: column;
 }
+
 
 .main__h3 {
     display: flex;
@@ -138,9 +144,9 @@ p {
 
 .central__content {
     display: flex;
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     width: 50%;
-    height: 3000px;
+    height: 1250px;
     margin: 40px auto;
     flex-wrap: wrap;
     flex-direction: column;
@@ -154,7 +160,6 @@ p {
 
 .central__content__box {
     display: flex;
-    background-color: lightgreen;
     width: 100%;
     height: 170px;
     column-gap: 20px;
@@ -192,7 +197,6 @@ p {
 .central__content__footer {
     display: flex;
     width: 100%;
-    background-color: darkgray;
     height: 500px;
     flex-direction: column;
 }
@@ -240,37 +244,77 @@ p {
     border-left: 20px solid #96e8ea;
     border-bottom: 20px solid transparent;
 }
+
 .central__content__circle {
     display: flex;
     width: 100%;
     flex-direction: row;
+    margin-top: 40px;
 }
+
 .content__circle {
     display: flex;
-    background-color: #c2073a;
+    background-color: #7b68ee;
     width: 130px;
     height: 120px;
     border-radius: 50%;
     margin-top: 30px;
 
 }
+
 .central__content__circle__text {
     display: flex;
-    width:85%;
+    width: 85%;
     height: 200px;
     flex-direction: column;
 
 }
+
 .central__content__circle__text h3 {
     display: flex;
     width: 100%;
     padding-left: 20px;
 
 }
+
 .central__content__circle__text p {
     display: flex;
     width: 80%;
     height: 150px;
     margin: 0;
     padding-left: 20px;
+}
+
+.content__end {
+    display: flex;
+    background-color: #96e8ea;
+    width: 100%;
+    height: 150px;
+    margin-top: -40px;
+    flex-direction: column;
+
+}
+
+.content__end__block {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.content__end__box {
+    display: flex;
+    background-color: #7b68ee;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.content__end__text {
+    display: flex;
+    width: 700px;
+    height: 70px;
+    margin: 0 auto;
 }
