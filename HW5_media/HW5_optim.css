@@ -36,15 +36,18 @@
     text-align: center;
     margin-bottom: 30px;
 }
+
 .footer {
     background-color: #61b4b6;
     padding: 20px;
 }
+
 .footer__content {
     display: flex;
     justify-content: space-between;
     height: 600px;
 }
+
 .footer__content__circle {
     display: flex;
     width: 25%;
@@ -54,12 +57,14 @@
     align-items: center;
     transition: all 0.5s;
 }
+
 .footer__content__circle:hover {
-   border-color: #221280;
+    border-color: #221280;
 }
+
 .content__circle {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: #b7cc5c;
 

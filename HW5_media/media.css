@@ -27,6 +27,11 @@
         width: 150px;
     }
 
+    .content__circle {
+        width: 150px;
+        height: 150px;
+    }
+
     .content__box {
         display: flex;
     }
