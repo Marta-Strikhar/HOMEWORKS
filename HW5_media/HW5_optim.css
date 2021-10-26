@@ -43,7 +43,7 @@
 .footer__content {
     display: flex;
     justify-content: space-between;
-    height: 250px;
+    height: 600px;
 }
 .footer__content__circle {
     display: flex;
