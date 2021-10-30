@@ -1,0 +1,52 @@
+@media screen and (max-width: 480px) {
+    .header__main {
+        display: none;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        padding: 20px 14px;
+    }
+
+    .mobile__menu {
+        display: flex;
+    }
+
+    .content__box1 {
+        font-size: 30px;
+        line-height: 34px
+    }
+
+    .content__box2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .content__box3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .content__box3::before,
+    .content__box3::after {
+        display: none;
+    }
+
+    .content__button {
+        display: flex;
+        justify-content: center;
+    }
+    .header__boxes {
+        flex-direction: column;
+    }
+    body {
+        overflow: scroll;
+    }
+    .header__content {
+        display: flex;
+        justify-content: center;
+    }
+}
