@@ -6,7 +6,7 @@
 
 .header__menu {
     display: flex;
-    max-width: 1530px;
+    max-width: 1540px;
     height: 36px;
     background-color: #022038;
     justify-content: center;
@@ -67,4 +67,210 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+}
+
+.header__menu__contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__menu__contact__left {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header__menu__contact__right {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.header__menu__contact__logo {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu__contact__time {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact__time__img {
+    display: flex;
+    flex-grow: 1;
+}
+
+.contact__time {
+    display: flex;
+    flex-grow: 4;
+    flex-direction: column;
+}
+
+.contact__address {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__social {
+    display: flex;
+}
+
+.contact__phone {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.contact__social button {
+    width: 204px;
+    height: 30px;
+    background-color: #E1EFD0;
+}
+
+.header__menu__search__btn button {
+    width: 164px;
+    height: 53px;
+    border-radius: 6px;
+    background-color: #005BB9;
+}
+
+.header__menu__search__btn {
+    display: flex;
+
+}
+
+.btn__line {
+    display: flex;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+}
+
+.btn__line::before,
+.btn__line::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 3px;
+
+    background-color: white;
+    position: absolute;
+}
+
+.btn__line::before {
+    top: 5px;
+}
+
+.btn__line::after {
+    bottom: 5px;
+}
+
+.header__menu__search__btn button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.search__button p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.header__menu__input input {
+    box-sizing: border-box;
+    width: 600px;
+    height: 53px;
+    border-radius: 6px 0 0 6px;
+}
+
+.search__button button {
+    height: 53px;
+    width: 80px;
+    background-color: #005BB9;
+    border-radius: 0 6px 6px 0;
+}
+
+.header__menu__search {
+    display: flex;
+    column-gap: 40px;
+
+}
+
+.header__menu__search__btn {
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+}
+
+.header__menu__input {
+    display: flex;
+    flex-grow: 2;
+}
+
+.header__menu__login {
+    display: flex;
+    flex-grow: 3;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu__login__item {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 20px;
+}
+
+.menu__login__like {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 20px;
+}
+
+.menu__login__shopping__cart {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 15px;
+}
+
+.header__menu__login p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
+}
+
+.header__menu__login i {
+    font-size: 25px;
+}
+
+.content__banner {
+    background-color: #E5E5E5;
+    display: flex;
+    max-width: 1540px;
+}
+
+.banner {
+    width: 900px;
+    height: 390px;
+    background: url("../Project/slid_bg.png") no-repeat center/cover;
+    border-radius: 10px;
 }
