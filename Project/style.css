@@ -137,6 +137,7 @@
     width: 204px;
     height: 30px;
     background-color: #E1EFD0;
+    border: transparent;
 }
 
 .header__menu__search__btn button {
@@ -269,8 +270,40 @@
 }
 
 .banner {
+    display: flex;
     width: 900px;
     height: 390px;
     background: url("../Project/slid_bg.png") no-repeat center/cover;
     border-radius: 10px;
+    margin-left: 40px;
+    align-items: center;
+}
+.banner__description {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 332px;
+    height: 207px;
+    row-gap: 20px;
+    align-items: center;
+}
+.banner__description__btn button {
+    width: 160px;
+    height: 49px;
+    left: 428px;
+    top: 515px;
+    background: #005BB9;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.banner__img img {
+    display: flex;
+    width: 417px;
+    height: 356px;
+    flex-grow: 1;
 }
