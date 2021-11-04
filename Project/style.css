@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body {
+    min-width: 1300px;
+}
 
 .header__menu {
     display: flex;
@@ -72,7 +75,6 @@
 .header__menu__contact {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .header__menu__contact__left {
@@ -167,7 +169,6 @@
     display: block;
     width: 20px;
     height: 3px;
-
     background-color: white;
     position: absolute;
 }
@@ -211,7 +212,6 @@
 .header__menu__search {
     display: flex;
     column-gap: 40px;
-    flex-wrap: wrap;
 
 }
 
@@ -266,19 +266,22 @@
 }
 
 .content__banner {
-    background-color: #E5E5E5;
+    background-color: #E5E5E5;;
     display: flex;
-    max-width: 1540px;
+    width: 1300px;
+    column-gap: 30px;
+    margin: 0 auto;
 }
 
 .banner {
     display: flex;
-    width: 900px;
+    /*width: 1080px;*/
     height: 390px;
     background: url("../Project/slid_bg.png") no-repeat center/cover;
     border-radius: 10px;
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     align-items: center;
+    flex-grow: 3;
 }
 
 .banner__description {
@@ -355,18 +358,111 @@
     margin-top: -50px;
     margin-left: 450px;
 }
+
 .banner__footer img {
-   height: 20px;
+    height: 20px;
 }
+
 .content__product {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    flex-grow: 1;
 }
+
 .content__product__box {
     display: flex;
     width: 336px;
     height: 190px;
     background: #F4F5FA;
     border-radius: 10px;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 20px;
+}
+
+.content__product__box__item {
+    display: flex;
+}
+
+.content__product__box__item img {
+    width: 80px;
+    height: 74px;
+}
+
+.content__product__box__btn button {
+    width: 57px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
+.content__product__box__header p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin-top: 10px;
+}
+
+.SONNAX h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+
+.SONNAX p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+
+.content__product__box__btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.numbers {
+    display: flex;
+    column-gap: 10px;
+}
+
+.products__cards {
+    display: flex;
+    margin-top: 50px;
+}
+.products__cards__item {
+    display: flex;
+    flex-grow: 1;
+}
+.products__cards__item__img img {
+    width: 154px;
+    height: 202px;
+}
+.products__cards__item button {
+    width: 86px;
+    height: 26px;
+    left: 313px;
+    top: 850px;
+    background: #005BB9;
+    border-radius: 4px;
+}
+.products__cards__item span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.products__cards__item__txt {
+    display: flex;
+    flex-direction: column;
+
+}
+.products__cards__item__img {
+    display: flex;
 }
