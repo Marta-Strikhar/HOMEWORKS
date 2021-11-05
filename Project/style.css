@@ -549,11 +549,14 @@ body {
     align-content: center;
     align-items: center;
     margin-top: 20px;
+    row-gap: 30px;
+
 }
 
 .cards__list {
     display: flex;
     flex-grow: 1;
+    align-items: flex-end;
 }
 
 .cards__list__box__img img {
@@ -573,11 +576,14 @@ body {
 .cards__list__box__price {
     display: flex;
     column-gap: 10px;
+    align-items: center;
 }
 
 .cards__list__box__btn {
     display: flex;
     column-gap: 10px;
+    margin-top: 20px;
+    align-items: center;
 }
 
 .cards__list__box__btn button {
@@ -609,4 +615,63 @@ body {
     color: white;
     align-items: center;
     margin: 0 auto;
+}
+.cards__list__box__txt p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.cards__list__box__price a {
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.cards__list__box__txt {
+    display: flex;
+    margin-bottom: 20px;
+}
+.box__btn__img img {
+    width: 21px;
+    height: 21px;
+}
+.box__grade__review p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+.cards__list__btn button {
+    width: 187px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.cards__list__btn span {
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #005BB9;
+}
+.header__news__line {
+    width: 1920px;
+    height: 9px;
+    background: #F5F5F5;
+}
+.main__news__all {
+    display: flex;
+}
+.main__news__img__box {
+    width: 106px;
+    height: 22px;
+    background: #0C1A2A;
+    border-radius: 4px;
+    margin-top: -5px;
+}
+.main__news__img__box span {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
