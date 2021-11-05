@@ -6,6 +6,7 @@
 body {
     min-width: 1300px;
 }
+
 .container {
 
 }
@@ -493,5 +494,119 @@ body {
     border-radius: 50%;
     border: 1px solid #E5E5E5;
     background-color: white;
+}
 
+.onlybuttons {
+    display: flex;
+    margin-top: 30px;
+    align-items: flex-start;
+    column-gap: 30px;
+    width: 1300px;
+}
+
+.button__first button {
+    width: 241px;
+    height: 55px;
+    background: #005BB9;
+    border-radius: 6px;
+    border: transparent;
+}
+
+.button__second button {
+    width: 123px;
+    height: 55px;
+    background-color: #E5E5E5;
+    border-radius: 6px;
+    border: 2px solid #005BB9;
+}
+
+.button__third button {
+    width: 229px;
+    height: 55px;
+    background-color: #E5E5E5;
+    border-radius: 6px;
+    border: 2px solid #005BB9;
+}
+
+.button__first span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.button__second span, .button__third span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cards__list {
+    display: flex;
+    flex-grow: 1;
+}
+
+.cards__list__box__img img {
+    width: 276px;
+    height: 222px;
+}
+
+.cards__list__box__grade {
+    display: flex;
+    column-gap: 10px;
+}
+
+.box__grade__star {
+    display: flex;
+}
+
+.cards__list__box__price {
+    display: flex;
+    column-gap: 10px;
+}
+
+.cards__list__box__btn {
+    display: flex;
+    column-gap: 10px;
+}
+
+.cards__list__box__btn button {
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+}
+
+.box__sale {
+    display: flex;
+    width: 39px;
+    height: 20px;
+    background-color: #FFB800;
+    border-radius: 3px;
+}
+
+.box__sale p {
+    display: flex;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    align-items: center;
+    margin: 0 auto;
 }
