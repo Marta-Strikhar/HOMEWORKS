@@ -662,6 +662,7 @@ body {
 }
 .main__news__all {
     display: flex;
+    column-gap: 30px;
 }
 .main__news__img__box {
     width: 106px;
@@ -674,4 +675,27 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+
+}
+
+.main__news__changes a {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.main__news__text span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #242424;
+}
+.main__news {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 20px;
+}
+.news {
+    width: 1300px;
+    margin: 0 auto;
 }
