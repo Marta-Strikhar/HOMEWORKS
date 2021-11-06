@@ -7,8 +7,9 @@ body {
     min-width: 1300px;
 }
 
-.container {
-
+.contact__search {
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .header__menu {
@@ -88,9 +89,8 @@ body {
 
 .header__menu__contact__right {
     display: flex;
-    flex-grow: 1;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     column-gap: 40px;
 }
@@ -98,7 +98,7 @@ body {
 .header__menu__contact__logo {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -154,10 +154,6 @@ body {
     background-color: #005BB9;
 }
 
-.header__menu__search__btn {
-    display: flex;
-
-}
 
 .btn__line {
     display: flex;
@@ -216,13 +212,13 @@ body {
 .header__menu__search {
     display: flex;
     column-gap: 40px;
+    margin-bottom: 30px;
 
 }
 
 .header__menu__search__btn {
     display: flex;
     flex: 1;
-    margin-left: 40px;
 }
 
 .header__menu__input {
@@ -502,6 +498,7 @@ body {
     align-items: flex-start;
     column-gap: 30px;
     width: 1300px;
+    margin-left: 110px;
 }
 
 .button__first button {
@@ -556,7 +553,9 @@ body {
 .cards__list {
     display: flex;
     flex-grow: 1;
-    align-items: flex-end;
+    width: 1300px;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .cards__list__box__img img {
