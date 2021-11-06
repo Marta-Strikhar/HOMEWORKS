@@ -1,0 +1,49 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        max-width: 400px;
+    }
+
+    .header__menu__left__text span {
+        display: none;
+    }
+
+    .header__menu__right {
+        display: none;
+    }
+
+    .right__text__mini {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 10px;
+
+    }
+
+    .right__text__mini p {
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    .header__menu__contact__time {
+        display: none;
+    }
+    .contact__logo img {
+        width: 50px;
+    }
+    .contact__search {
+        display: flex;
+    }
+    .contact__address {
+        display: none;
+    }
+    .contact__name p {
+        font-size: 8px;
+        line-height: 10px;
+        color: #0F2438;
+    }
+    .contact__name h1 {
+        font-size: 14px;
+        line-height: 16px;
+        color: #0F2438;
+    }
+}

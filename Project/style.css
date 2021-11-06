@@ -5,6 +5,7 @@
 
 body {
     min-width: 1300px;
+
 }
 
 .contact__search {
@@ -20,7 +21,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+.header__menu__left__text a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
 .header__menu__left {
     display: flex;
     flex-direction: row;
@@ -36,7 +41,6 @@ body {
 
 .menu__left__img img {
     height: 30px;
-    width: 10px;
 }
 
 .header__menu__left__text {
@@ -67,6 +71,9 @@ body {
     flex-grow: 1;
     align-items: center;
     justify-content: space-evenly;
+}
+.right__text__mini {
+    display: none;
 }
 
 .right__text {
@@ -292,6 +299,7 @@ body {
     height: 207px;
     row-gap: 20px;
     align-items: flex-start;
+    margin-left: 20px;
 
 }
 
@@ -484,7 +492,7 @@ body {
     display: flex;
 }
 
-.arrow1, .arrow2 {
+.arrow1, .arrow2, .arrow3 , .arrow4 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -502,6 +510,7 @@ body {
     position: relative;
     left: 70px;
 }
+
 
 .onlybuttons {
     display: flex;
