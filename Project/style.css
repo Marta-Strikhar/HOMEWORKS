@@ -21,11 +21,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .header__menu__left__text a {
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
 }
+
 .header__menu__left {
     display: flex;
     flex-direction: row;
@@ -72,6 +74,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .right__text__mini {
     display: none;
 }
@@ -116,6 +119,10 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+.search__button span button {
+    display: none;
 }
 
 .contact__time__img {
@@ -492,7 +499,7 @@ body {
     display: flex;
 }
 
-.arrow1, .arrow2, .arrow3 , .arrow4 {
+.arrow1, .arrow2, .arrow3, .arrow4 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
