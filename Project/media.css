@@ -261,4 +261,11 @@
     .header__menu__search__btn button span {
         display: none;
     }
+    .main__news__all {
+        display: flex;
+        margin-left: 10px;
+    }
+    .header__news h2 {
+        margin-left: 5px;
+    }
 }
