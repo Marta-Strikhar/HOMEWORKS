@@ -2,8 +2,6 @@
     .header__menu {
         max-width: 400px;
     }
-
-
     .header__menu__left__text span {
         display: none;
     }
@@ -178,6 +176,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .banner__img img {
         display: flex;
         max-width: 170px;
@@ -185,7 +184,6 @@
 
     .content__product {
         display: flex;
-        max-width: 400px;
         flex-direction: row;
         column-gap: 20px;
     }
@@ -193,37 +191,49 @@
     .arrow1, .arrow2 {
         display: none;
     }
+
     .products__cards {
         display: flex;
         margin-left: -20px;
         width: 800px;
     }
+
     .products__cards__item {
         display: flex;
         overflow: hidden;
     }
+    .products__cards__item__none {
+        display: none;
+    }
+
     .content__product__box {
         display: flex;
-        overflow: hidden;
+        margin-top: 20px;
     }
+
     .banner__footer {
         display: none;
     }
+
     .onlybuttons {
         display: none;
     }
+
     .products__cards__item__img img {
         width: 80px;
         height: 100px;
     }
+
     .main__news__all {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
     }
+
     .main__news__img img {
         display: none;
     }
+
     .footer__right {
         display: flex;
         flex-direction: row;
@@ -231,41 +241,86 @@
         margin-top: 800px;
         right: 140px
     }
+
     .footer__left {
         display: flex;
         flex-direction: column;
     }
+
     .footer {
         height: 1500px;
         padding: 0;
     }
+
     .btn__line span {
         display: none;
     }
+
     .cards__list__box__img img {
         width: 120px;
         height: 140px;
     }
+
     .cards__list__box {
         margin-right: -30px;
     }
+
     .cards__list__box p {
         font-size: 12px;
         line-height: 14px;
         color: #0F2438
     }
+
     .left__text {
         align-items: flex-end;
+    }
+
+    .city {
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    .left__text a {
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+    }
+
+    .menu__left__img img {
+        height: 15px;
     }
 
     .header__menu__search__btn button span {
         display: none;
     }
+
     .main__news__all {
         display: flex;
         margin-left: 10px;
     }
+
     .header__news h2 {
         margin-left: 5px;
+    }
+
+    .header__menu__search__btn span {
+        display: none;
+    }
+    .products__cards__item__txt h4 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .products__cards__item__txt p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .products__cards {
+        max-width: 400px;
+        column-gap: 5px;
+        left: 20px;
+    }
+    body {
+        overflow-x: hidden;
     }
 }

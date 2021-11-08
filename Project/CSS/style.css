@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-
-
-}
 
 .contact__search {
     max-width: 1300px;
@@ -182,6 +178,8 @@ body {
     height: 3px;
     background-color: white;
     position: relative;
+    margin-top: -30px;
+    margin-left: 10px;
 }
 
 .btn__line::before,
@@ -201,6 +199,7 @@ body {
 .btn__line::after {
     bottom: 5px;
 }
+
 
 .header__menu__search__btn button {
     font-weight: bold;
@@ -296,7 +295,7 @@ body {
 .banner {
     display: flex;
     height: 390px;
-    background: url("../Project/slid_bg.png") no-repeat center/cover;
+    background: url("../image/slid_bg.png") no-repeat center/cover;
     border-radius: 10px;
     align-items: center;
     flex-grow: 3;
@@ -460,7 +459,7 @@ body {
     margin-top: 50px;
 }
 
-.products__cards__item {
+.products__cards__item, .products__cards__item__none {
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -696,7 +695,7 @@ body {
 }
 
 .header__news__line {
-    width: 1920px;
+    width: 1300px;
     height: 9px;
     background: #F5F5F5;
 }
