@@ -520,7 +520,9 @@
     position: relative;
     left: 70px;
 }
-
+.header__menu__login__none {
+    display: none;
+}
 
 .onlybuttons {
     display: flex;

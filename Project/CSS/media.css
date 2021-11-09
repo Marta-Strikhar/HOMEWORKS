@@ -201,6 +201,9 @@
     .products__cards__item {
         display: flex;
         overflow: hidden;
+        width: 250px;
+        height: 125px;
+
     }
     .products__cards__item__none {
         display: none;
@@ -213,6 +216,18 @@
 
     .banner__footer {
         display: none;
+    }
+    .header__menu__login__none {
+        display: flex;
+        flex-grow: 4;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .header__menu__login__none img {
+        width: 50px;
+        height: 50px;
     }
 
     .onlybuttons {
@@ -316,11 +331,26 @@
         line-height: 12px;
     }
     .products__cards {
-        max-width: 400px;
-        column-gap: 5px;
-        left: 20px;
+        height: 125px;
+        width: 500px;
     }
     body {
         overflow-x: hidden;
+    }
+    .SONNAX h5 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .SONNAX p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .numbers p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .content__product__box {
+        height: 160px;
+        row-gap: 0;
     }
 }
