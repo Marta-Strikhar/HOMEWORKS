@@ -869,4 +869,7 @@
     width: 20px;
     margin-top: 20px;
 }
+.cards__list__none {
+    display: none;
+}
 
