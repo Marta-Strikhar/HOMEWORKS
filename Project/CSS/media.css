@@ -179,7 +179,9 @@
 
     .banner__img img {
         display: flex;
-        max-width: 170px;
+        width: 150px;
+        height: 170px;
+        margin-right: 20px;
     }
 
     .content__product {
@@ -288,6 +290,9 @@
     .cards__list__box {
         margin-right: -25px;
     }
+    .hidden {
+        visibility: hidden;
+    }
 
     .cards__list__box p {
         font-size: 12px;
@@ -391,5 +396,8 @@
     }
     .footer__right__adress {
         margin-top: 50px;
+    }
+    .cards {
+        margin-left: 10px;
     }
 }
